@@ -1,11 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pork Dumplings</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            line-height: 1.5;
+        }
+
+        body {
+            max-width: 100%;
+            font-size: 18px;
+            padding: 20px;
+            font-family: sans-serif;
+            font-size: 20px;
+
+        }
+
+        .grid--2cols {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            justify-content: center;
+
+            column-gap: 30px;
+            padding: auto;
+        }
+
+        main {
+            width: 80%;
+            margin: 10px auto;
+            border: solid black 5px;
+            padding: 5px;
+        }
+
+        .para {
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        ul {
+            background-color: antiquewhite;
+            border: solid black 2px;
+            width: 90%;
+            padding: 10%;
+
+
+        }
+
+        section {
+            display: inline-block;
+        }
+
+        li:first-child {
+            list-style: none;
+            margin-left: 30%;
+            font-size: 20px;
+        }
+
+        li {
+            margin-left: 25px;
+            padding: 5px;
+        }
+
+        li strong {
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <main>
+        <h1> Pork Dumplings</h1>
+        <p><span> Cuisine :</span> Chinese</p>
+        <div class="para">
+
+            <p>These tasty steamed pork dumplings make a perfect appetizer for a party or you can serve them as a main
+                dish.
+                Serve with hoisin sauce, hot Chinese-style mustard, and toasted sesame seeds.</p>
+        </div>
+        <div class="grid--2cols">
+            <img src="/home/vboxuser/odin-recipes/images/pork-dumplings.webp"
+                alt="image of pork dumpling after cooking">
+            <section>
+
+                <ul>
+                    <li><strong>Ingredients</strong></li>
+                    <li>100 (3.5 inch square) wonton wrappers</li>
+                    <li>1 ¾ pounds ground pork</li>
+                    <li>1 tablespoon minced fresh ginger root</li>
+                    <li>4 cloves garlic, minced</li>
+                    <li>2 tablespoons thinly sliced green onion</li>
+                    <li>4 tablespoons soy sauce</li>
+                    <li>3 tablespoons sesame oil</li>
+                    <li>1 egg, beaten</li>
+                    <li>5 cups finely shredded Chinese cabbage</li>
+                </ul>
+            </section>
+        </div>
+    </main>
 </body>
+
 </html>
