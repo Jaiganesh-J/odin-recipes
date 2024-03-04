@@ -1,2 +1,2 @@
 # odin-recipes
-This is a web page containing recipes for cooking builed using HTML.
+A simple web page containing recipes for cooking build using HTML.
